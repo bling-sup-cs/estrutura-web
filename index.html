@@ -122,7 +122,8 @@
             <button onclick="showTab('qualidade-tab')" id="btn-qualidade-tab" class="nav-link font-semibold text-[10px] md:text-xs uppercase tracking-wider transition-colors hover:text-[#34ad61]">Qualidade</button>
             <button onclick="showTab('csm-tab')" id="btn-csm-tab" class="nav-link font-semibold text-[10px] md:text-xs uppercase tracking-wider transition-colors hover:text-[#34ad61]">CSM</button>
             <button onclick="showTab('education-tab')" id="btn-education-tab" class="nav-link font-semibold text-[10px] md:text-xs uppercase tracking-wider transition-colors hover:text-[#34ad61]">Education</button>
-            <button onclick="showTab('comercial-tab')" id="btn-comercial-tab" class="nav-link font-semibold text-[10px] md:text-xs uppercase tracking-wider transition-colors hover:text-[#34ad61]">Comercial</button>
+            <button onclick="showTab('experts-v-tab')" id="btn-experts-v-tab" class="nav-link font-semibold text-[10px] md:text-xs uppercase tracking-wider transition-colors hover:text-[#34ad61]">Experts (E-commerce)</button>
+            <button onclick="showTab('experts-p-tab')" id="btn-experts-p-tab" class="nav-link font-semibold text-[10px] md:text-xs uppercase tracking-wider transition-colors hover:text-[#34ad61]">Experts (Fintech)</button>
         </div>
     </nav>
 
@@ -249,7 +250,6 @@
                                 <div class="bg-sky-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm">L2</div>
                                 <h4 class="font-bold text-slate-800 text-sm">Suporte Técnico</h4>
                             </div>
-                            <p class="text-[11px] text-gray-600 mb-6 flex-grow leading-relaxed">Escalonamento para investigação profunda e diagnósticos complexos.</p>
                             <div class="pt-4 border-t border-slate-100 flex justify-between items-center">
                                 <span class="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Colaboradores</span>
                                 <span class="bg-sky-100 text-sky-700 text-xs font-bold px-3 py-1 rounded-full">24</span>
@@ -263,7 +263,6 @@
                                 <div class="bg-emerald-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm">P</div>
                                 <h4 class="font-bold text-slate-800 text-sm">Suporte Premium</h4>
                             </div>
-                            <p class="text-[11px] text-gray-600 mb-6 flex-grow leading-relaxed">Atendimento prioritário para clientes corporativos e Planos Elite.</p>
                             <div class="pt-4 border-t border-slate-100 flex justify-between items-center">
                                 <span class="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Colaboradores</span>
                                 <span class="bg-emerald-100 text-emerald-700 text-xs font-bold px-3 py-1 rounded-full">+ 20</span>
@@ -296,34 +295,27 @@
                     </p>
                 </div>
                 <div class="w-0.5 h-10 bg-slate-300"></div>
-                
-                <!-- Grid de 5 colunas para os 5 cards -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 w-full max-w-[1400px] px-4">
-                    <!-- Fiscal -->
                     <div class="bg-white p-5 rounded-xl border-l-4 border-[#34ad61] shadow-sm card-hover text-center">
                         <div class="text-xl mb-2">⚖️</div>
                         <h5 class="font-bold text-slate-800 text-xs uppercase tracking-widest mb-1">Fiscal</h5>
                         <p class="text-[10px] text-gray-500 leading-tight">Tributação e Notas Fiscais.</p>
                     </div>
-                    <!-- ERP -->
                     <div class="bg-white p-5 rounded-xl border-l-4 border-[#34ad61] shadow-sm card-hover text-center">
                         <div class="text-xl mb-2">📦</div>
                         <h5 class="font-bold text-slate-800 text-xs uppercase tracking-widest mb-1">ERP</h5>
                         <p class="text-[10px] text-gray-500 leading-tight">Vendas, Estoque, Produtos.</p>
                     </div>
-                    <!-- Integrações -->
                     <div class="bg-white p-5 rounded-xl border-l-4 border-[#34ad61] shadow-sm card-hover text-center">
                         <div class="text-xl mb-2">🔌</div>
                         <h5 class="font-bold text-slate-800 text-xs uppercase tracking-widest mb-1">Integrações</h5>
                         <p class="text-[10px] text-gray-500 leading-tight">Marketplaces e E-commerces.</p>
                     </div>
-                    <!-- API -->
                     <div class="bg-white p-5 rounded-xl border-l-4 border-[#34ad61] shadow-sm card-hover text-center">
                         <div class="text-xl mb-2">💻</div>
                         <h5 class="font-bold text-slate-800 text-xs uppercase tracking-widest mb-1">API</h5>
                         <p class="text-[10px] text-gray-500 leading-tight">Aplicativos Públicos e Privados.</p>
                     </div>
-                    <!-- Finanças -->
                     <div class="bg-white p-5 rounded-xl border-l-4 border-[#34ad61] shadow-sm card-hover text-center">
                         <div class="text-xl mb-2">💰</div>
                         <h5 class="font-bold text-slate-800 text-xs uppercase tracking-widest mb-1">Finanças</h5>
@@ -340,9 +332,7 @@
                     <div class="text-[10px] font-bold bling-text mb-1 uppercase tracking-widest">Supervisão</div>
                     <h3 class="text-lg font-bold">Andrei Faés</h3>
                 </div>
-
                 <div class="w-0.5 h-10 bg-slate-300"></div>
-
                 <div class="w-full max-w-3xl bg-white border-2 bling-border p-8 rounded-2xl shadow-md text-center relative z-10 overflow-hidden">
                     <div class="absolute top-0 right-0 bg-slate-800 text-white px-5 py-1.5 text-[10px] font-bold rounded-bl-xl">
                         05 COLABORADORES
@@ -356,9 +346,7 @@
                         Ponto focal para a mediação de conflitos e análise de lealdade, conectando as percepções dos canais de ouvidoria e NPS ao planejamento tático para a redução de atritos e melhoria dos processos internos.
                     </p>
                 </div>
-
                 <div class="w-0.5 h-10 bg-slate-300"></div>
-
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full max-w-5xl px-4">
                     <div class="bg-white p-5 rounded-xl border-l-4 border-[#34ad61] shadow-sm card-hover text-center">
                         <div class="text-xl mb-2">💬</div>
@@ -474,7 +462,7 @@
                             <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100 text-center flex flex-col items-center card-hover">
                                 <div class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center text-xl mb-3">📖</div>
                                 <h6 class="font-bold text-slate-800 text-sm mb-1">Central de Ajuda</h6>
-                                <p class="text-[10px] text-gray-400 leading-tight flex-grow">Artigos com GIFs e vídeos para resolução de problemas.</p>
+                                <p class="text-[10px] text-gray-400 leading-tight flex-grow">Artigos com GIFs e vídeos para resolution de problemas.</p>
                                 <span class="mt-3 text-[9px] font-bold text-slate-600">BASE DE DADOS</span>
                             </div>
                         </div>
@@ -483,16 +471,16 @@
             </div>
         </section>
 
-        <!-- Aba: Comercial -->
-        <section id="comercial-tab" class="tab-content">
+        <!-- Aba: Experts (E-commerce) - Vinícius -->
+        <section id="experts-v-tab" class="tab-content">
             <div class="flex flex-col items-center mt-10">
                 <div class="bg-slate-900 text-white p-5 rounded-2xl shadow-lg border-2 bling-border w-72 text-center relative z-10">
-                    <div class="text-[10px] font-bold bling-text mb-1 uppercase tracking-widest text-center">Coordenação Comercial</div>
-                    <h3 class="text-lg font-bold">Vinicius Rodrigues</h3>
+                    <div class="text-[10px] font-bold bling-text mb-1 uppercase tracking-widest text-center">Coordenação Solution Experts</div>
+                    <h3 class="text-lg font-bold">Vinícius Rodrigues</h3>
                 </div>
                 <div class="w-0.5 h-10 bg-slate-300"></div>
                 <div class="w-full max-w-4xl bg-white border-2 border-slate-200 p-6 rounded-2xl shadow-md text-center relative z-10">
-                    <h4 class="font-bold text-slate-800 uppercase tracking-widest text-sm mb-1">Estrutura de Operações Comerciais</h4>
+                    <h4 class="font-bold text-slate-800 uppercase tracking-widest text-sm py-2">E-commerce e Logística</h4>
                 </div>
                 <div class="w-0.5 h-10 bg-slate-300"></div>
                 <div class="hidden md:block w-[75%] h-0.5 bg-slate-300"></div>
@@ -500,21 +488,60 @@
                     <div class="relative flex flex-col items-center pt-8">
                         <div class="hidden md:block absolute top-0 w-0.5 h-8 bg-slate-300"></div>
                         <div class="bg-white p-10 rounded-2xl shadow-sm border-t-8 border-[#34ad61] w-full card-hover text-center">
-                            <div class="text-3xl mb-3">📦</div>
+                            <div class="text-3xl mb-4">📦</div>
                             <h4 class="font-bold text-slate-800 text-sm uppercase tracking-widest">Melhor Envio</h4>
                         </div>
                     </div>
                     <div class="relative flex flex-col items-center pt-8">
                         <div class="hidden md:block absolute top-0 w-0.5 h-8 bg-slate-300"></div>
                         <div class="bg-white p-10 rounded-2xl shadow-sm border-t-8 border-slate-800 w-full card-hover text-center">
-                            <div class="text-3xl mb-3">🌐</div>
+                            <div class="text-3xl mb-4">🌐</div>
                             <h4 class="font-bold text-slate-800 text-sm uppercase tracking-widest">Loja Virtual</h4>
                         </div>
                     </div>
                     <div class="relative flex flex-col items-center pt-8">
                         <div class="hidden md:block absolute top-0 w-0.5 h-8 bg-slate-300"></div>
                         <div class="bg-white p-10 rounded-2xl shadow-sm border-t-8 border-sky-500 w-full card-hover text-center">
-                            <div class="text-3xl mb-3">⚙️</div>
+                            <div class="text-3xl mb-4">⚙️</div>
+                            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-widest">Operações</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aba: Experts (Fintech) - Paulo -->
+        <section id="experts-p-tab" class="tab-content">
+            <div class="flex flex-col items-center mt-10">
+                <div class="bg-slate-900 text-white p-5 rounded-2xl shadow-lg border-2 bling-border w-72 text-center relative z-10">
+                    <div class="text-[10px] font-bold bling-text mb-1 uppercase tracking-widest text-center">Gerência Solution Experts</div>
+                    <h3 class="text-lg font-bold">Paulo Oliveira</h3>
+                </div>
+                <div class="w-0.5 h-10 bg-slate-300"></div>
+                <div class="w-full max-w-4xl bg-white border-2 border-slate-200 p-6 rounded-2xl shadow-md text-center relative z-10">
+                    <h4 class="font-bold text-slate-800 uppercase tracking-widest text-sm py-2">Fintech e Serviços Financeiros</h4>
+                </div>
+                <div class="w-0.5 h-10 bg-slate-300"></div>
+                <div class="hidden md:block w-[75%] h-0.5 bg-slate-300"></div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-0 w-full max-w-6xl px-4">
+                    <div class="relative flex flex-col items-center pt-8">
+                        <div class="hidden md:block absolute top-0 w-0.5 h-8 bg-slate-300"></div>
+                        <div class="bg-white p-10 rounded-2xl shadow-sm border-t-8 border-emerald-600 w-full card-hover text-center">
+                            <div class="text-3xl mb-4">💳</div>
+                            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-widest">Conta Digital</h4>
+                        </div>
+                    </div>
+                    <div class="relative flex flex-col items-center pt-8">
+                        <div class="hidden md:block absolute top-0 w-0.5 h-8 bg-slate-300"></div>
+                        <div class="bg-white p-10 rounded-2xl shadow-sm border-t-8 border-slate-800 w-full card-hover text-center">
+                            <div class="text-3xl mb-4">🏦</div>
+                            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-widest">Serviços Financeiros</h4>
+                        </div>
+                    </div>
+                    <div class="relative flex flex-col items-center pt-8">
+                        <div class="hidden md:block absolute top-0 w-0.5 h-8 bg-slate-300"></div>
+                        <div class="bg-white p-10 rounded-2xl shadow-sm border-t-8 border-sky-500 w-full card-hover text-center">
+                            <div class="text-3xl mb-4">⚙️</div>
                             <h4 class="font-bold text-slate-800 text-sm uppercase tracking-widest">Operações</h4>
                         </div>
                     </div>
